@@ -2,14 +2,14 @@
 
 ## 📋 Agenda
 
-🛠️ **Instalación y Configuración**
-🚀 **Primeros Pasos**
-💻 **Desarrollo Local**
-👤 **Gestión de Cuentas**
-🧪 **Deploy en Sepolia (Testnet)**
-🌐 **Deploy en Mainnet**
-⚡ **Usar scaffold-stark-2**
-🤖 **Usar Cairo Coder**
+* 🛠️ **Instalación y Configuración**
+* 🚀 **Primeros Pasos**
+* 💻 **Desarrollo Local**
+* 👤 **Gestión de Cuentas**
+* 🧪 **Deploy en Sepolia (Testnet)**
+* 🌐 **Deploy en Mainnet**
+* ⚡ **Usar scaffold-stark-2**
+* 🤖 **Usar Cairo Coder**
 
 ## Starkup - Gestor de herramientas de Starknet
 
