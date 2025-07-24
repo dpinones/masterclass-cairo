@@ -40,9 +40,9 @@ contract Vault {
     mapping(address => uint256) public balances;
     address public strkToken;
 
-    constructor() public {
+    constructor(address owner) public {
         strkToken = 0x0000000000000000000000000000000000000000000000000000000000000000;
-        owner = msg.sender;
+        owner = owner;
     }
 
     function deposit(uint256 _amount) external {
