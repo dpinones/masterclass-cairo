@@ -103,7 +103,7 @@ Incluye un par de cuentas que ya estan deployadas.
 ```bash
 sncast account import \
     --url http://127.0.0.1:5050 \
-    --name test_local \
+    --name dojo_local \
     --address 0x064b48806902a367c8598f4f95c305e8c1a1acba5f082d294a43793113115691 \
     --private-key 0x0000000000000000000000000000000071d7bb07b9a64f6f78ac4c816aff4da9 \
     --type oz
@@ -114,7 +114,7 @@ sncast account import \
 Antes de que un contrato pueda ser deployado en Starknet, su código compilado debe enviarse a la red (también conocido como declararlo).
 
 ```bash
-sncast --account test_local declare \
+sncast --account dojo_local declare \
 --url http://127.0.0.1:5050 \
 --contract-name HelloStarknet
 ```
@@ -124,7 +124,7 @@ El class hash del contrato puede ser usado para deployar otra instancia del mism
 ## Deployar el contrato
 
 ```bash
-sncast --account test_local \
+sncast --account dojo_local \
 deploy \
 --url http://127.0.0.1:5050 \
 --class-hash0x051e0d3b26fb79035afdc64d2214eb18291629b4f2ef132e79c3f3fbe1ba57c4 \
@@ -136,7 +136,7 @@ deploy \
 **Llamar función (solo lectura)**
 
 ```bash
-sncast --account test_local \
+sncast --account dojo_local \
 call \
 --url http://127.0.0.1:5050 \
 --contract-address 0x04035c4db7822523478996bfc2b80d925e671279bb99ed1fb4e4fcc222e344e6 \
@@ -146,7 +146,7 @@ call \
 **Invocar función (cambiar estado)**
 
 ```bash
-sncast --account test_local \
+sncast --account dojo_local \
 invoke \
 --contract-address 0x04035c4db7822523478996bfc2b80d925e671279bb99ed1fb4e4fcc222e344e6 \
 --url http://127.0.0.1:5050 \
