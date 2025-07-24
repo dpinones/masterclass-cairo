@@ -1,4 +1,4 @@
-# 🚀 Starknet: De cero a mainnet sin morir en el intento
+# 🚀 Starknet: De cero a mainnet
 
 ## Starkup - Gestor de herramientas de Starknet
 
