@@ -1,5 +1,16 @@
 # 🚀 Starknet: De cero a mainnet
 
+## 📋 Agenda
+
+🛠️ **Instalación y Configuración**
+🚀 **Primeros Pasos**
+💻 **Desarrollo Local**
+👤 **Gestión de Cuentas**
+🧪 **Deploy en Sepolia (Testnet)**
+🌐 **Deploy en Mainnet**
+⚡ **Usar scaffold-stark-2**
+🤖 **Usar Cairo Coder**
+
 ## Starkup - Gestor de herramientas de Starknet
 
 Starkup es el gestor oficial de herramientas para el desarrollo en Starknet. Instala y gestiona automáticamente las versiones de Scarb, snforge, sncast y starknet-devnet.
